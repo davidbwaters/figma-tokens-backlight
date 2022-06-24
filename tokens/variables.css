@@ -7,10 +7,6 @@
   --figma-global-bg-1: #1a2023;
   --figma-global-bg-border-0: #2d3238;
   --figma-global-bg-border-blur: #636f98;
-  --figma-global-bg-border-glass: linear-gradient(129deg, #ffffff 0%, #ffffff4d 100%);
-  --figma-global-bg-glass-alt: linear-gradient(135deg, #ffffff40 0%, #ffffff0d 100%);
-  --figma-global-bg-border-glass-alt: linear-gradient(180deg, #ffffff33 0%, #ffffff14 100%);
-  --figma-global-bg-glass: linear-gradient(180deg, #ffffff24 0%, #ffffff0a 100%);
   --figma-global-gradient-primary-vertical: linear-gradient(180deg, #72c7f5 0%, #8e53b5 49.53%, #fc34c4 100%);
   --figma-global-gradient-primary-horizontal: linear-gradient(90deg, #72c7f5 0%, #8e53b5 49.53%, #fc34c4 100%);
   --figma-global-gradient-active-bg: linear-gradient(270deg, #0c0f1080 0%, #0c0f1000 100%);
@@ -23,6 +19,9 @@
   --figma-global-gradient-button-blue-muted: linear-gradient(-45deg, #53b4f8 6.02%, #96c8e0 50.05%, #5ab5f7 100%);
   --figma-global-gradient-button-blue: linear-gradient(-45deg, #00cfe3 0%, #94f5fe 49.25%, #0cdbef 100%);
   --figma-global-gradient-button-primary-alt: linear-gradient(-45deg, #a291ef 13.59%, #cc74f1 50.05%, #a870eb 78.18%);
+  --figma-global-gradient-glass: linear-gradient(135deg, #ffffff40 0%, #ffffff0d 100%);
+  --figma-global-gradient-border-glass: linear-gradient(180deg, #ffffff33 0%, #ffffff14 100%);
+  --figma-global-gradient-brand-blue: linear-gradient(-45deg, #4271ec 11.92%, #79c7f3 100%);
   --figma-global-theme-accent-blue: #13e6fb;
   --figma-global-theme-accent-blue-light: #73f7fc;
   --figma-global-theme-fuscia: #b93eec;
@@ -57,7 +56,6 @@
   --figma-global-shadow-base: [object Object],[object Object],[object Object];
   --figma-global-shadow-medium: [object Object],[object Object],[object Object];
   --figma-global-shadow-large: [object Object],[object Object],[object Object];
-  --figma-global-shadow-x-large: [object Object],[object Object],[object Object],[object Object];
   --figma-global-glow-theme-blue: [object Object];
   --figma-global-glow-theme-fuscia: [object Object];
   --figma-global-font-families-gt-america: GT America;
@@ -119,14 +117,11 @@
   --figma-global-glow-theme-fuscia-blur: 0 1 12 0 rgba(222,138,252,0.4), 12;
   --figma-global-glow-theme-yellow-blur: 0 1 12 0 rgba(255,211,97,0.4), 12;
   --figma-global-glow-theme-blue-blur: 0 1 12 rgba(11,247,252,0.4), 12 ;
+  --figma-global-shadow-extra-large: [object Object],[object Object],[object Object],[object Object];
   --figma-bg-0: #0c0f10;
   --figma-bg-1: #1a2023;
   --figma-bg-border-0: #2d3238;
   --figma-bg-border-blur: #636f98;
-  --figma-bg-border-glass: linear-gradient(129deg, #ffffff 0%, #ffffff4d 100%);
-  --figma-bg-glass-alt: linear-gradient(135deg, #ffffff40 0%, #ffffff0d 100%);
-  --figma-bg-border-glass-alt: linear-gradient(180deg, #ffffff33 0%, #ffffff14 100%);
-  --figma-bg-glass: linear-gradient(180deg, #ffffff24 0%, #ffffff0a 100%);
   --figma-gradient-primary-vertical: linear-gradient(180deg, #72c7f5 0%, #8e53b5 49.53%, #fc34c4 100%);
   --figma-gradient-primary-horizontal: linear-gradient(90deg, #72c7f5 0%, #8e53b5 49.53%, #fc34c4 100%);
   --figma-gradient-active-bg: linear-gradient(270deg, #0c0f1080 0%, #0c0f1000 100%);
@@ -139,6 +134,9 @@
   --figma-gradient-button-blue-muted: linear-gradient(-45deg, #53b4f8 6.02%, #96c8e0 50.05%, #5ab5f7 100%);
   --figma-gradient-button-blue: linear-gradient(-45deg, #00cfe3 0%, #94f5fe 49.25%, #0cdbef 100%);
   --figma-gradient-button-primary-alt: linear-gradient(-45deg, #a291ef 13.59%, #cc74f1 50.05%, #a870eb 78.18%);
+  --figma-gradient-glass: linear-gradient(135deg, #ffffff40 0%, #ffffff0d 100%);
+  --figma-gradient-border-glass: linear-gradient(180deg, #ffffff33 0%, #ffffff14 100%);
+  --figma-gradient-brand-blue: linear-gradient(-45deg, #4271ec 11.92%, #79c7f3 100%);
   --figma-theme-accent-blue: #13e6fb;
   --figma-theme-accent-blue-light: #73f7fc;
   --figma-theme-fuscia: #b93eec;
@@ -173,7 +171,6 @@
   --figma-shadow-base: [object Object],[object Object],[object Object];
   --figma-shadow-medium: [object Object],[object Object],[object Object];
   --figma-shadow-large: [object Object],[object Object],[object Object];
-  --figma-shadow-x-large: [object Object],[object Object],[object Object],[object Object];
   --figma-glow-theme-blue: [object Object];
   --figma-glow-theme-fuscia: [object Object];
   --figma-font-families-gt-america: GT America;
@@ -235,4 +232,5 @@
   --figma-glow-theme-fuscia-blur: 0 1 12 0 rgba(222,138,252,0.4), 12;
   --figma-glow-theme-yellow-blur: 0 1 12 0 rgba(255,211,97,0.4), 12;
   --figma-glow-theme-blue-blur: 0 1 12 rgba(11,247,252,0.4), 12 ;
+  --figma-shadow-extra-large: [object Object],[object Object],[object Object],[object Object];
 }

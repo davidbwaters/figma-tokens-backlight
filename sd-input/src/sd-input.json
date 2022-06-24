@@ -19,22 +19,6 @@
     "Border Blur": {
       "value": "#636f98",
       "type": "color"
-    },
-    "Border Glass": {
-      "value": "linear-gradient(129deg, #ffffff 0%, #ffffff4d 100%)",
-      "type": "color"
-    },
-    "Glass Alt": {
-      "value": "linear-gradient(135deg, #ffffff40 0%, #ffffff0d 100%)",
-      "type": "color"
-    },
-    "Border Glass Alt": {
-      "value": "linear-gradient(180deg, #ffffff33 0%, #ffffff14 100%)",
-      "type": "color"
-    },
-    "Glass": {
-      "value": "linear-gradient(180deg, #ffffff24 0%, #ffffff0a 100%)",
-      "type": "color"
     }
   },
   "Gradient": {
@@ -84,6 +68,18 @@
     },
     "Button Primary Alt": {
       "value": "linear-gradient(-45deg, #a291ef 13.59%, #cc74f1 50.05%, #a870eb 78.18%)",
+      "type": "color"
+    },
+    "Glass": {
+      "value": "linear-gradient(135deg, #ffffff40 0%, #ffffff0d 100%)",
+      "type": "color"
+    },
+    "Border Glass": {
+      "value": "linear-gradient(180deg, #ffffff33 0%, #ffffff14 100%)",
+      "type": "color"
+    },
+    "Brand Blue": {
+      "value": "linear-gradient(-45deg, #4271ec 11.92%, #79c7f3 100%)",
       "type": "color"
     }
   },
@@ -320,43 +316,6 @@
         "x": 0,
         "y": 16,
         "blur": 24,
-        "spread": 0
-      }
-    ],
-    "type": "boxShadow"
-  },
-  "Shadow X-Large": {
-    "value": [
-      {
-        "color": "#0000000a",
-        "type": "dropShadow",
-        "x": 0,
-        "y": 0,
-        "blur": 1,
-        "spread": 0
-      },
-      {
-        "color": "#0000000a",
-        "type": "dropShadow",
-        "x": 0,
-        "y": 4,
-        "blur": 8,
-        "spread": 0
-      },
-      {
-        "color": "#0000000a",
-        "type": "dropShadow",
-        "x": 0,
-        "y": 16,
-        "blur": 24,
-        "spread": 0
-      },
-      {
-        "color": "#0000000a",
-        "type": "dropShadow",
-        "x": 0,
-        "y": 24,
-        "blur": 32,
         "spread": 0
       }
     ],
@@ -882,5 +841,42 @@
   "Glow Theme Blue Blur": {
     "value": "0 1 12 rgba(11,247,252,0.4), 12 ",
     "type": "other"
+  },
+  "Shadow Extra Large": {
+    "value": [
+      {
+        "color": "#0000000a",
+        "type": "dropShadow",
+        "x": 0,
+        "y": 0,
+        "blur": 1,
+        "spread": 0
+      },
+      {
+        "color": "#0000000a",
+        "type": "dropShadow",
+        "x": 0,
+        "y": 4,
+        "blur": 8,
+        "spread": 0
+      },
+      {
+        "color": "#0000000a",
+        "type": "dropShadow",
+        "x": 0,
+        "y": 16,
+        "blur": 24,
+        "spread": 0
+      },
+      {
+        "color": "#0000000a",
+        "type": "dropShadow",
+        "x": 0,
+        "y": 24,
+        "blur": 32,
+        "spread": 0
+      }
+    ],
+    "type": "boxShadow"
   }
 }
