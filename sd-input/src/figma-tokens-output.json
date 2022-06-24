@@ -844,19 +844,19 @@
         "type": "textDecoration"
       }
     },
-    "sm": {
+    "Large": {
       "value": "8",
       "type": "borderRadius"
     },
-    "md": {
+    "Extra Large": {
       "value": "12",
       "type": "borderRadius"
     },
-    "lg": {
+    "Huge": {
       "value": "16",
       "type": "borderRadius"
     },
-    "xl": {
+    "Giant": {
       "value": "24",
       "type": "borderRadius"
     },
